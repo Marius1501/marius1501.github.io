@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Marius1501
-- 👀 I’m interested in Web Development
+- 👀 I’m interested in Web and App Development
 - 📫 How to reach me: Malemo2001@gmail.com
 
 <!---
