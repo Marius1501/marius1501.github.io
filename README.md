@@ -1,7 +1,12 @@
 - 👋 Hi, I’m @Marius1501
 - 👀 I’m interested in:
-                         - Web and App Development
-                         - Machine and Deep Learning
+                         • Web- and App Development
+                         • Machine- and Deep Learning
+- 💻My programming languages: 
+                         • Java
+                         • JavaScript
+                         • Python (NumPy, Pandas, PyTorch)
+                         • Kotlin
 - 📫 How to reach me: malemo2001@gmail.com or marius.wagner@tum.de
 
 <!---
