@@ -1,0 +1,26 @@
+[
+  {
+    "image": "assets/img/courses/pytorch_course.jpg",
+    "title": "PyTorch Course for Beginner",
+    "text": "A very good beginner course to get into PyTorch. That was my first PyTorch course and it helped me a lot.",
+    "link": "https://www.youtube.com/watch?v=Z_ikDlimN6A&t=11s&pp=ygUHcHl0b3JjaA%3D%3D"
+  },
+  {
+    "image": "assets/img/courses/machine-learning-crash-course.jpg",
+    "title": "Deep Learning Crash Course",
+    "text": "A small course to understand the principles of Deep Learning.",
+    "link": "https://www.youtube.com/watch?v=VyWAvY2CF9c&pp=ygUNZGVlcCBsZWFybmluZw%3D%3D"
+  },
+  {
+    "image": "assets/img/courses/intermediate-python-course.jpg",
+    "title": "Intermediate Python Course",
+    "text": "A good course to improve python skills.",
+    "link": "https://youtu.be/HGOBQPFzWKo"
+  },
+  {
+    "image": "assets/img/courses/chatGPT_prompt_course.png",
+    "title": "ChatGPT Prompt Engineering for Developers",
+    "text": "A short course for prompt engineering with ChatGPT.",
+    "link": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
+  }
+]

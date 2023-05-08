@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>More About Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/search_library.js" defer></script>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/about.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" sizes="384x384" href="assets\img\Favoticon_large.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets\img\Favoticon_small.png">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body class="animated-background">
+
+    <script src="assets/js/header.js"></script>
+
+    <main>
+        <div class="portrait-container">
+            <img src="assets/img/me.jpg" alt="me" id="portrait-img" />
+            <div class="portrait-overlay">
+                <div class="portrait-overlay-text">That's Me</div>
+            </div>
+        </div>
+
+        <h2 class="caption-text">
+            <b>Hey!</b> <br>I'm Marius. I am an information systems student in Munich at TUM.
+            If you want to get to know me better scroll down and enjoy!
+        </h2>
+
+        <img src="assets/img/munich.jpg" alt="Munich" id="munich-img" />
+
+        <h2 class="caption-home">Hobbies</h2>
+        <ul id="hobbies">
+            <li>
+                <div class="tooltip">
+                    <div class="zoom">
+                        <div class="interests-images"><img src="assets/img/icons/ski_icon.png" alt="skiing"></div>
+                    </div>
+                    <span class="tooltip-text">skiing</span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">
+                    <div class="zoom">
+                        <div class="interests-images"><img src="assets/img/icons/book_icon.png" alt="reading"></div>
+                    </div>
+                    <span class="tooltip-text">reading</span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">
+                    <div class="zoom">
+                        <div class="interests-images"><img src="assets/img/icons/guitar_icon.png" alt="playing guitar"></div>
+                    </div>
+                    <span class="tooltip-text">playing guitar</span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">
+                    <div class="zoom">
+                        <div class="interests-images"><img src="assets/img/icons/hiking_icon.png" alt="hiking"></div>
+                    </div>
+                    <span class="tooltip-text">hiking</span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">
+                    <div class="zoom">
+                        <div class="interests-images"><img src="assets/img/icons/sing_icon.png" alt="singing"></div>
+                    </div>
+                    <span class="tooltip-text">singing</span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">
+                    <div class="zoom">
+                        <div class="interests-images"><img src="assets/img/icons/tennis_icon.png" alt="playing tennis"></div>
+                    </div>
+                    <span class="tooltip-text">playing tennis</span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">
+                    <div class="zoom">
+                        <div class="interests-images"><img src="assets/img/icons/travel_icon.png" alt="travelling"></div>
+                    </div>
+                    <span class="tooltip-text">travelling</span>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">
+                    <div class="zoom">
+                        <div class="interests-images"><img src="assets/img/icons/volleyball_icon.png" alt="playing volleyball"></div>
+                    </div>
+                    <span class="tooltip-text">playing volleyball</span>
+                </div>
+            </li>
+        </ul>
+
+        <h2 class="caption-home">Interests besides Computer Science</h2>
+        <ul id="interests-besides">
+            <li>
+                <div class="interest-container">
+                    <div class="interests-images"><img src="assets/img/icons/icon-leaf.png" alt="Biology"></div>
+                    <h1 class="interests-text">Biology</h1>
+                </div>
+            </li>
+            <li>
+                <div class="interest-container">
+                    <div class="interests-images"><img src="assets/img/icons/icon-politics.png" alt="Politics"></div>
+                    <h1 class="interests-text">Politics</h1>
+                </div>
+            </li>
+            <li>
+                <div class="interest-container">
+                    <div class="interests-images"><img src="assets/img/icons/icon-finance.png" alt="Finance"></div>
+                    <h1 class="interests-text">Finance</h1>
+                </div>
+            </li>
+            <li>
+                <div class="interest-container">
+                    <div class="interests-images"><img src="assets/img/icons/icon-geography.png" alt="Geography"></div>
+                    <h1 class="interests-text">Geography</h1>
+                </div>
+            </li>
+        </ul>
+
+        <h2 class="caption-home">Books (not finished yet)</h2>
+        <div class="search-wrapper">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="search" id="search" placeholder="Search Books" data-search>
+        </div>
+        <div class="book-cards"></div>
+
+    </main>
+
+    <script src="assets/js/footer.js"></script>
+
+</body>
+
+</html>

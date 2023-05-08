@@ -1,0 +1,34 @@
+[
+  {
+    "image": "assets/img/icons/java_icon.png",
+    "name": "Java"
+  },
+  {
+    "image": "assets/img/icons/javascript_icon.png",
+    "name": "JavaScript"
+  },
+  {
+    "image": "assets/img/icons/kotlin_icon.png",
+    "name": "Kotlin"
+  },
+  {
+    "image": "assets/img/icons/python_icon.png",
+    "name": "Python"
+  },
+  {
+    "image": "assets/img/icons/pytorch_logo.svg",
+    "name": "PyTorch"
+  },
+  {
+    "image": "assets/img/icons/NumPy_logo.png",
+    "name": "NumPy"
+  },
+  {
+    "image": "assets/img/icons/r_logo.png",
+    "name": "R"
+  },
+  {
+    "image": "assets/img/icons/git_icon.png",
+    "name": "Git"
+  }
+]

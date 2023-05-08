@@ -1,0 +1,86 @@
+[
+  {
+    "image": "assets/img/books/dune.jpg",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "release": "1965",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/bill_gates_book.jpg",
+    "title": "How to Avoid a Climate Disaster - The solutions we have and the breakthroughs we need",
+    "author": "Bill Gates",
+    "release": "2021",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/deutschland_2050.jpg",
+    "title": "Deutschland 2050 - Wie der Klimawandel unser leben verändern wird",
+    "author": "Nick Reimer, Toralf Staud",
+    "release": "2021",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/prisoners-of-geography.jpg",
+    "title": "Prisoners of Geography - Ten maps that tell you everything you need to know about global politics",
+    "author": "Tim Marshall",
+    "release": "2021",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/commander-in-cheat.jpg",
+    "title": "Commander in Cheat - How Golf Explains Trump",
+    "author": "Rick Reilly",
+    "release": "2019",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/obama_book.jpg",
+    "title": "A Promised Land",
+    "author": "Barack Obama",
+    "release": "2020",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/think-and-grow-rich.jpg",
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "release": "1937",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/brief-answers-to-the-big-questions.jpg",
+    "title": "Brief Answers to the Big Questions",
+    "author": "Stephen Hawking",
+    "release": "2018",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/lifespan.jpg",
+    "title": "Lifespan. Why We Age - and Why We Don't Have To",
+    "author": "David A. Sinclair, PhD",
+    "release": "2019",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/immortality.jpg",
+    "title": "Immortality: The Quest to Live Forever and How It Drives Civilization",
+    "author": "Stephen Cave",
+    "release": "2017",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/warren_buffet_book.jpg",
+    "title": "The Snowball - Warren Buffet and the Business of Life",
+    "author": "Alice Schroeder",
+    "release": "2008",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/how-to-win-friends-and-influence-people.jpg",
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "release": "1936",
+    "status": "Read"
+  }
+]
