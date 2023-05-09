@@ -147,7 +147,7 @@ input {
 }
 
 .book-text {
-    font-family: Constantia;
+    font-family: Constantia, sans-serif;
     font-weight: normal;
     color: white;
     padding: 0 20px 20px 20px;
@@ -163,12 +163,12 @@ input {
 }
 
 .book-release {
-    font-family: Candara;
+    font-family: Candara, sans-serif;
     font-size: 20px;
 }
 
 .book-status {
-    font-family: Constantia;
+    font-family: Constantia, sans-serif;
     margin-top: auto;
 }
 
