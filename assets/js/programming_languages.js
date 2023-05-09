@@ -1,10 +1,9 @@
-let http = new XMLHttpRequest();
+let pLs = [];
 
-http.open('get', 'assets/json/programming_languages.json', true);
-http.send();
-http.onload = function () {
-    if (this.readyState === 4 && this.status === 200) {
-        let pLs = JSON.parse(this.responseText);
+fetch('assets/json/programming_languages.json')
+    .then(response => response.json())
+    .then(data => {
+        pLs = data;
         let output = "";
 
         for (let item of pLs) {
@@ -25,5 +24,5 @@ http.onload = function () {
         pLs.forEach((pL, index) => {
             pL.element = lis[index];
         });
-    }
-}
+    })
+    .catch(error => console.log(error));
