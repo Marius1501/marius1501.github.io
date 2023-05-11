@@ -1,5 +1,40 @@
 [
   {
+    "image": "assets/img/books/steve_jobs.jpg",
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "release": "2011",
+    "status": "Unread"
+  },
+  {
+    "image": "assets/img/books/hybris.jpg",
+    "title": "Hybris - Die Reise der Menschheit - Zwischen Aufbruch und Scheitern",
+    "author": "Johannes Krause, Thomas Trappe",
+    "release": "2021",
+    "status": "Unread"
+  },
+  {
+    "image": "assets/img/books/homo_deus.jpg",
+    "title": "Homo Deus - A Brief History of Tomorrow",
+    "author": "Yuval Noah Harari",
+    "release": "2015",
+    "status": "Unread"
+  },
+  {
+    "image": "assets/img/books/sapiens.jpg",
+    "title": "Sapiens - A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "release": "2011",
+    "status": "Reading"
+  },
+  {
+    "image": "assets/img/books/reise_unserer_gene.jpg",
+    "title": "Die Reise unserer Gene - Eine Geschichte über uns und unsere Vorfahren",
+    "author": "Johannes Krause, Thomas Trappe",
+    "release": "2019",
+    "status": "Read"
+  },
+  {
     "image": "assets/img/books/dune.jpg",
     "title": "Dune",
     "author": "Frank Herbert",
@@ -32,6 +67,13 @@
     "title": "Commander in Cheat - How Golf Explains Trump",
     "author": "Rick Reilly",
     "release": "2019",
+    "status": "Read"
+  },
+  {
+    "image": "assets/img/books/too_much_and_never_enough.jpg",
+    "title": "Too Much an Never Enough - How My Family Created The World's Most Dangerous Man",
+    "author": "Mary L. Trump",
+    "release": "2020",
     "status": "Read"
   },
   {
