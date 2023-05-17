@@ -24,6 +24,10 @@
     "name": "NumPy"
   },
   {
+    "image": "assets/img/icons/pandas_icon.svg",
+    "name": "Pandas"
+  },
+  {
     "image": "assets/img/icons/r_logo.png",
     "name": "R"
   },
