@@ -20,6 +20,10 @@
     "name": "PyTorch"
   },
   {
+    "image": "assets/img/icons/scikit_learn_logo.svg",
+    "name": "Scikit-learn"
+  },
+  {
     "image": "assets/img/icons/NumPy_logo.png",
     "name": "NumPy"
   },
