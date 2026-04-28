@@ -1,27 +1,112 @@
-# marius1501.github.io
+# Marius Wagner - Portfolio Website
 
-## That's my website. Check it out!
+Modern portfolio website built with **Astro**, **React**, and **Tailwind CSS**.
 
-<a href="https://marius1501.github.io/" target=_blank><img src="grafik.png"></a>
+**Live:** https://marius1501.github.io
 
-- 👋 Hi, I’m @Marius1501 <img align=right width=200 height=200  src="https://media.giphy.com/media/MeJgB3yMMwIaHmKD4z/giphy.gif" />
-- 👀 I’m interested in:
-  • Web- and App Development
-  • Machine- and Deep Learning
-- 💻My programming languages:
-  • Java
-  • JavaScript
-  • Python (NumPy, Pandas, PyTorch)
-  • Kotlin
-- 📫 How to reach me: malemo2001@gmail.com or marius.wagner@tum.de
+## 🛠️ Tech Stack
 
-<b>📈 Github Stats</b>
+- **Framework:** [Astro](https://astro.build) - Fast, modern static site generator
+- **UI:** [React](https://react.dev) - Interactive components
+- **Styling:** [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS
+- **Language:** TypeScript for type safety
 
-<br>
-  <img src="https://github-readme-stats.vercel.app/api?username=marius1501&show_icons=true&theme=gotham" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marius1501&layout=donut" />
+## 📁 Project Structure
 
-<!---
-Marius1501/Marius1501 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+```
+├── src/
+│   ├── components/      # React components
+│   ├── layouts/         # Astro layouts
+│   ├── pages/          # Astro pages (auto-routes)
+│   ├── data/           # Static data & types
+│   └── styles/         # Global styles
+├── public/             # Static assets
+├── dist/               # Build output
+└── astro.config.mjs    # Astro configuration
+```
+
+## 🚀 Quick Start
+
+### Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server (http://localhost:3000)
+npm run dev
+```
+
+### Build
+
+```bash
+# Create optimized build
+npm run build
+
+# Preview built site
+npm run preview
+```
+
+## 📦 Deployment - GitHub Pages
+
+This site is automatically deployed to GitHub Pages.
+
+### Setup (already configured ✅)
+
+- Astro config includes `site: 'https://marius1501.github.io'`
+- Output is set to static site generation
+- GitHub Pages configured to deploy from repo
+
+### To Deploy
+
+**Option 1: Automatic (Recommended)**
+```bash
+# Push changes to main branch
+git add .
+git commit -m "Update portfolio"
+git push origin main
+
+# Site will be live in 1-2 minutes at https://marius1501.github.io
+```
+
+**Option 2: Manual Build**
+```bash
+npm run build
+# dist/ folder is ready to deploy
+```
+
+## 📝 Editing Content
+
+### Update Portfolio Projects
+Edit `src/data/portfolio.ts`:
+```typescript
+export const projects: Project[] = [
+  {
+    id: 'project-id',
+    title: 'Project Name',
+    description: 'Description...',
+    link: 'https://github.com/...',
+    image: '/assets/projects/image.jpg',
+    tags: ['React', 'TypeScript'],
+  },
+];
+```
+
+### Update Skills
+Edit `src/data/portfolio.ts` - modify the `skills` array
+
+### Add New Pages
+Create `.astro` file in `src/pages/` and it will auto-route.
+
+## ✨ Features
+
+- ⚡ Ultra-fast static site generation with Astro
+- 🎨 Modern, minimalist design
+- 📱 Fully responsive
+- ✨ Smooth animations & transitions
+- 🔤 TypeScript support
+- 🎯 SEO optimized
+
+## 📄 License
+
+MIT License - Feel free to use this as a template!

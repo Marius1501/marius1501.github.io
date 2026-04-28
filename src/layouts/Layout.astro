@@ -1,0 +1,48 @@
+---
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import '@/styles/global.css';
+
+interface Props {
+  title?: string;
+}
+
+const { title = 'Marius Wagner - Portfolio' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content="Portfolio of Marius Wagner, Full-stack Developer" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Marius Wagner" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body class="bg-gradient-to-br from-white via-blue-50 to-purple-50 text-gray-900 relative overflow-x-hidden">
+    {/* Animated Background Blobs - Global */}
+    <div class="fixed inset-0 overflow-hidden pointer-events-none -z-10">
+      {/* Blob 1 - Blue */}
+      <div class="blob-float-1 absolute top-20 right-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+      
+      {/* Blob 2 - Purple */}
+      <div class="blob-float-2 absolute top-40 left-20 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+      
+      {/* Blob 3 - Blue-Purple */}
+      <div class="blob-float-3 absolute bottom-20 right-40 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-15"></div>
+    </div>
+
+    <div class="relative z-10">
+      <Header client:load />
+      <main class="min-h-screen">
+        <slot />
+      </main>
+      <Footer client:load />
+    </div>
+  </body>
+</html>
